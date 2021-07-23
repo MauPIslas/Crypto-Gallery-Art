@@ -1,0 +1,35 @@
+[debug] [2021-07-23T07:52:29.584Z] ----------------------------------------------------------------------
+[debug] [2021-07-23T07:52:29.586Z] Command:       /home/mauricio/.nvm/versions/node/v14.16.1/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-07-23T07:52:29.586Z] CLI Version:   9.4.0
+[debug] [2021-07-23T07:52:29.586Z] Platform:      linux
+[debug] [2021-07-23T07:52:29.587Z] Node Version:  v14.16.1
+[debug] [2021-07-23T07:52:29.587Z] Time:          Fri Jul 23 2021 02:52:29 GMT-0500 (hora de verano central)
+[debug] [2021-07-23T07:52:29.587Z] ----------------------------------------------------------------------
+[debug] [2021-07-23T07:52:29.587Z] 
+[debug] [2021-07-23T07:52:29.593Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-23T07:52:29.594Z] > authorizing via signed-in user
+[debug] [2021-07-23T07:52:29.594Z] [iam] checking project crypto-gallery-art for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-23T07:52:29.596Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-23T07:52:29.596Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-23T07:52:29.760Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 23 Jul 2021 07:52:29 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-23T07:52:29.860Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/crypto-gallery-art:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-07-23T07:52:30.190Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 23 Jul 2021 07:52:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=222","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-23T07:52:30.199Z] > refreshing access token with scopes: []
+[debug] [2021-07-23T07:52:30.201Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-23T07:52:30.328Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Fri, 23 Jul 2021 07:52:30 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-23T07:52:30.410Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crypto-gallery-art [none]
+[debug] [2021-07-23T07:52:30.666Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crypto-gallery-art 200
+[debug] [2021-07-23T07:52:30.667Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crypto-gallery-art {"projectId":"crypto-gallery-art","projectNumber":"774337699283","displayName":"Crypto Gallery Art","name":"projects/crypto-gallery-art","resources":{"hostingSite":"crypto-gallery-art"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'crypto-gallery-art'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-07-23T07:52:30.674Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-23T07:52:30.674Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-23T07:52:30.792Z] <<< HTTP RESPONSE 200 {"date":"Fri, 23 Jul 2021 07:52:30 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-23T07:52:30.852Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/crypto-gallery-art/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
