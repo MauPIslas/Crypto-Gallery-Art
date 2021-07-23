@@ -24,4 +24,13 @@ p{
 }
 `
 
-export {NavbarContainer}
+
+const SVGContainer = styled.svg`
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin:0;
+  margin-left: 20px;
+`
+
+export {NavbarContainer, SVGContainer}
