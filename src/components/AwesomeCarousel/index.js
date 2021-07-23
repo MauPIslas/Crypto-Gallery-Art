@@ -87,7 +87,6 @@ function Slide({ slide, offset }) {
       >
         <div className="slideContentInner">
           <h2 className="slideTitle">{slide.title}</h2>
-          <h3 className="slideSubtitle">{slide.subtitle}</h3>
           <p className="slideDescription">{slide.description}</p>
         </div>
       </div>

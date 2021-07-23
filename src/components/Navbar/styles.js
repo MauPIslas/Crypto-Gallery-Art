@@ -3,7 +3,6 @@ import styled from 'styled-components'
 const NavbarContainer = styled.nav`
 width: 100%;
 height: 10vh;
-font-family: 'Satisfy', cursive;
 font-family: 'Kaushan Script', cursive;
 display: grid;
 background: transparent;
